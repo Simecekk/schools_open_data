@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        {% for school in schools %}
+            <li>{{ school.full_name }}</li>
+            <li>{{ school.ruian_code }}</li>
+            <li>{{ school.address_1 }}</li>
+            <li>{{ school.address_2 }}</li>
+            <li>{{ school.address_3 }}</li>
+            <li>{{ school.principal_name }}</li>
+            <li>{{ school.legal_form }}</li>
+            <li>{{ school.company_id }}</li>
+            <h1>**********************************</h1>
+        {% endfor %}
+    </ul>
+</body>
+</html>

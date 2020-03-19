@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExportDat>
+
+ <DatumVystupu>2020-03-16T21:30:01.8634233+01:00</DatumVystupu>
+
+ <PravniSubjekt>
+
+  <RedIzo>600000206</RedIzo>
+  <ICO>49625918</ICO>
+
+  <Reditelstvi>
+
+    <ICO>ico</ICO>
+    <RedPlnyNazev>Mateřská škola sv. Voršily v Praze</RedPlnyNazev>
+    <RedZkracenyNazev>Mateřská škola sv. Voršily v Praze</RedZkracenyNazev>
+    <RedRUAINKod>21702101</RedRUAINKod>						<!-- pokud je vyplnen a >0 -->
+    <RedAdresa1>Ostrovní 139/11</RedAdresa1>
+    <RedAdresa2>Nové Město</RedAdresa2>
+    <RedAdresa3>110 00 Praha 1</RedAdresa3>
+    <PravniForma>641</PravniForma>				<!-- cisel. kodem> -->
+    <DruhZrizovatele>6</DruhZrizovatele>					<!-- cisel. kodem> -->
+    <Okres>CZ0111</Okres>							<!-- cisel. kod podle plat. ciselniku sl. czkod -->
+    <ORP>CZ01101</ORP>						<!-- cisel. kodem> -->
+    <Email1>None</Email1>
+    <Email2>None</Email2>
+    <DobaZrizeniSubjektu>Neurčitá</DobaZrizeniSubjektu>			<!-- napevno text "Neur�it�" -->
+
+    <Reditel>
+      <ReditelJmeno>Anna Luňáčková</ReditelJmeno>
+      <ReditelJeStatutar>true<ReditelJeStatutar>			<!-- pro PO a SPO automaticky ano -->
+      <ReditelAdresa1>Volkova 1126/6</ReditelAdresa1>			<!-- pouze je-li soucasne statutar -->
+      <ReditelAdresa2>Černý Most</ReditelAdresa2>			<!-- pouze je-li soucasne statutar -->
+      <ReditelAdresa3>198 00 Praha 9</ReditelAdresa3>			<!-- pouze je-li soucasne statutar -->
+    </Reditel>
+
+    <StatutarniOrgany>							<!-- pouze neni-li soucasne reditel; muze vickrat -->
+      <StatutarniOrgan>							
+        <StatutarJmeno>Anna Luňáčková<StatutarJmeno>					
+        <StatutarAdresa1>Volkova 1126/6</StatutarAdresa1>			
+        <StatutarAdresa2>Černý Most</StatutarAdresa2>			
+        <StatutarAdresa3>198 00 Praha 9</StatutarAdresa3>			
+      </StatutarniOrgan>
+    </StatutarniOrgany>
+  </Reditelstvi>
+
+  <Zrizovatele>								<!-- pouze pro PO a SPO, muze byt vic -->
+   <Zrizovatel>								<!-- pouze pro PO a SPO, muze byt vic -->
+    <ZrizOsoba>P/F</ZrizOsoba>
+    <ZrizPravniForma>241</ZrizPravniForma>
+    <ZrizDatumNarozeni></ZrizDatumNarozeni>				<!-- pouze FO -->
+    <ZrizICO></ZrizICO>							<!-- pouze PO -->
+    <ZrizAdresa1>1.radek adresy</ZrizAdresa1>		
+    <ZrizAdresa2>2.radek adresy</ZrizAdresa2>			
+    <ZrizAdresa3>3.radek adresy</ZrizAdresa3>			
+    <ZrizEmail1>email_zr</ZrizEmail1>
+   </Zrizovatel>
+  </Zrizovatele>
+
+  <SkolyaZarizeni> <!-- vsechny skoly a zarizeni -->
+
+    <SkolaZarizeni>							<!-- vsechny skoly a zarizeni -->
+
+    <IZO>IZO</IZO>
+    <SkolaPlnyNazev>plny_nazev</SkolaPlnyNazev>
+    <SkolaDruhTyp>druh/typ(kod)</SkolaDruhTyp>
+    <SKolaKapacita>cilkapa/neuvadi se</SKolaKapacita>
+    <SkolaKapacitaJednotka>merna_jednotka</SkolaKapacitaJednotka>
+    <SkolaJazyk>jazyk_skoly</SkolaJazyk>
+    <SkolaDatumZapisu>datum_zapisu</SkolaDatumZapisu>
+    <SkolaDatumZahajeni>dat_zahaj</SkolaDatumZahajeni>
+
+    <SkolaMistaVykonuCinnosti> 
+     <SkolaMistoVykonuCinnosti>
+      <IDMista>p_izo</IDMista>
+      <MistoDruhTyp>druh/typ(kod)</MistoDruhTyp>
+      <MistoRUAINKod></MistoRUAINKod>					<!-- pokud je vyplnen a >0 -->
+      <MistoAdresa1>1.radek adresy</MistoAdresa1>
+      <MistoAdresa2>2.radek adresy</MistoAdresa2>
+      <MistoAdresa3>3.radek adresy</MistoAdresa3>
+     </SkolaMistoVykonuCinnosti>
+    </SkolaMistaVykonuCinnosti>
+
+    <SkolaOboryVzdelani>						<!-- krome ZUS -->
+     <SkolaOborVzdelani>						
+      <OborKod>kod podle ciselniku</OborKod>				<!-- podle ciselniku -->
+      <OborNazev>nazev podle ciselniku</OborNazev>			<!-- podle ciselniku -->
+      <FormaVzdelavani>forma</FormaVzdelavani>				<!-- kod podle ciselniku> -->
+      <DelkaVzdelavani>delka</DelkaVzdelavani>				<!-- kod podle ciselniku> -->
+      <JazykOboru>jazyk_oboru</JazykOboru>				<!-- kod podle ciselniku> -->
+      <OborKapacita>stud_ckapa/neuvadi se</OborKapacita>
+      <OborKapacitaJednotka>merna_jednotka</OborKapacitaJednotka>
+     </SkolaOborVzdelani>
+    </SkolaOboryVzdelani>
+
+    <SkolaOboryVzdelaniZUS>						<!-- pouze  ZUS -->		
+     <SkolaOborVzdelaniZUS>			
+      <OborZUS>oborZUS podle ciselniku</OborZUS>			<!-- podle ciselniku -->
+      <OborZUSNazev>nazev podle ciselniku</OborZUSNazev>		<!-- podle ciselniku -->
+      <OborZUSKapacita>stud_ckapa</OborKapacitaZUS>
+      <OborKapacitaZUSJednotka>merna_jednotka</OborKapacitaZUSJednotka>
+     </SkolaOborVzdelaniZUS>
+    </SkolaOboryVzdelaniZUS>
+
+   </SkolaZarizeni>
+
+  </SkolyaZarizeni>							
+ </PravniSubjekt>
+
+</ExportDat>
+</xml>
