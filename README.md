@@ -7,11 +7,12 @@ viz: https://github.com/illagrenan/ares_util
 
 Po naklonování a zmigrování modelu School stačí pouze zadat příkaz: 
 
-python manage.py collect_school_data --> Uloží všechny školy do DB (Data se nevalidují)
+python manage.py collect_school_data --> Uloží všechny školy do DB bez validace
 
-python manage.py collect_school_data --validate --> Spustí validaci přes ares_utils (Trvá dlouho)
+python manage.py collect_school_data --validate --> Uloží všechny školy do DB s validací (trvá dlouho)
 
 Applikace obsahuje jedno view pro zobrazení dat.
 
 http://127.0.0.1:8000/schools/data/ --> Zobrazí prvních 10 škol
+
 http://127.0.0.1:8000/schools/data/?number=(x) --> Zobraz prních X škol
